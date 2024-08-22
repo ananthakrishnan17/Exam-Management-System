@@ -1,0 +1,198 @@
+/*userreg*/
+#reg-h1{
+    margin-top: 5px;
+}
+.reg-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 0.5px;
+    border-radius: 3px;
+    margin-top: -25px;
+    margin-right: 1%;
+    width: 100%;
+}
+.reg-table{
+    margin-left: 33%;
+    line-height: 28px;
+}
+#column{
+    font-weight: bold;
+    text-align: right;
+    font-size: 14px;
+    padding-right: 20px;
+}
+#text_area{
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 20px;
+}
+#reg_text_area_field{
+    vertical-align: top;
+    padding-left: 20px;
+}
+#error_collum{
+    padding-left: 20px;
+}
+input{
+    font-size: 13px;
+}
+.input-field{
+    width: 190px;
+    height: 22px;
+}
+.add{
+    margin-top: 5px;
+}
+.footer{
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding: 6px;
+    margin-top: -15px;
+}
+.degree{
+    width: 190px;
+    margin-top: 5px;
+}
+#btn_register{
+    margin-left: 36%;
+    margin-right: 5%;
+    width: 110px;
+    height: 35px;
+    border: none;
+}
+#reg_cancel{
+    height: 35px;
+    width: 110px;
+    border: none;
+}
+
+/*Userlist*/
+#list_register{
+    height: 40px;
+    width: 120px;
+    border: none;
+    float: right;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+  }
+  
+  .pagination-label {
+    margin: 0 10px;
+  }
+  
+  .pagination-button, .pagination-number {
+    padding: 5px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .pagination-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination-number.current {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+/* Userview*/
+
+#view_back-btn {
+    color: white;
+    font-size: 17px;
+    border: none;
+    width: 110px;
+    background-color: grey;
+}
+#view_edit-btn {
+    float: right;
+    color: white;
+    font-size: 17px;
+    border: none;
+    width: 110px;
+}
+#singleview {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: -10px;
+    padding: 20px;
+    padding-left: 31%;
+    line-height: 30px;
+}
+#view_title{
+    font-weight: bold;
+    text-align: right;
+}
+#space1{
+    font-weight: bold;
+    padding-left: 50px;
+}
+#space{
+    padding-left: 50px;
+}
+
+
+/* useredit*/
+
+.edit_content{
+    border: 1px solid ;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 26.5px;
+}
+#title_field{
+    text-align: right;
+    font-weight: bold;
+}
+#title_field1{
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+}
+#title_field2{
+    padding-left: 5px;
+}
+#title_field3{
+    vertical-align: top;
+}
+#usr_id{
+    font-weight: bold;
+}
+.edit_table{
+    font-size: 14px;
+    margin-left: 420px;
+}
+.gender{
+    padding-left: 7px;
+}
+.maritial{
+    padding-left:7px ;
+}
+#btn_update{
+    margin-left: 38%;
+    margin-right: 4%;
+    height: 34px;
+    width: 110px;
+    border: none;
+}
+#edit_cancel{
+    height: 34px;
+    width: 110px;
+    border: none;
+}
+.edit-field{
+    width: 215px;
+    height: 25px;
+    margin-left: 5px;
+}

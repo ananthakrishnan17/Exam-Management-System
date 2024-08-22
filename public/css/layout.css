@@ -1,0 +1,94 @@
+body {
+    margin: 0!important;/* Remove default body margin */
+    padding: 0!important; /* Remove default body padding */
+}
+
+.head {
+    font-size: 38px !important;
+    font-weight: bold !important;
+    border-radius: 5px !important;
+    height: 55px !important;
+    color: whitesmoke;
+    margin: 0.7% 1% !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    background-color:#3498db !important;
+}
+
+#ul_list {
+    margin-top: -6px;
+    margin-left: 15px;
+}
+
+li {
+    background-color: #67B0F9;
+    width: 140px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: whitesmoke;
+    border-bottom: 2px solid #357EC7;
+    overflow: hidden;
+}
+
+#admin {
+    border-radius: 10px 0 0 0;
+}
+
+#result {
+    margin-left: 2px;
+}
+
+#master {
+    border-radius: 0 10px 0 0;
+    margin-left: 2px;
+}
+#user {
+    margin-left: 2px;
+}
+#questions {
+    margin-left: 2px;
+}
+
+#menu_A {
+    color: black;
+}
+
+#menu_A:hover {
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+}
+
+#logout {
+    float: right !important;
+    text-decoration: none !important;
+    margin-right: 3% !important;
+    font-size: 35px !important;
+    color: white !important;
+    position: relative !important;
+    margin-top: 7px !important;
+}
+
+#logout-text {
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    top: 90%;
+    right: 40%;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: black;
+}
+
+#logout:hover #logout-text {
+    display: inline-block;
+}
+
+#logout:hover {
+    color: red !important;
+}

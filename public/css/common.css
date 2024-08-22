@@ -1,0 +1,104 @@
+/* common css for button */
+
+button{
+    color:white;
+    border: none;
+    border-radius:5px;
+    height: 40px;
+    width: 120px;
+    font-size: 14px!important;
+}
+
+/* common css for heading */
+
+h1{
+    border: 0.5px solid ;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 6px;
+}
+
+/* common css for table */
+#table_list{
+    border:none;
+    width: 100%;
+    
+}
+#table_list tr th{
+    background-color:#3498db;
+    color: white;
+
+}
+#table_list tr:nth-child(even) {
+    background-color: #dae9f8;
+}
+#table_list tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* common css for search box */
+
+.search-box {
+    display: flex;
+    float: right;
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 15px;
+}
+.box {
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 30px;
+    align-items:center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.box input {
+    width: 200px;
+    outline: none;
+    border: none;
+    
+    transition: 0.7s;
+    background: transparent;
+}
+.fa-search{
+    color: #67B0F9;
+}
+.fa-trash{
+    color: red;
+    font-size:20px;
+}
+
+/* pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-label {
+    margin: 0 10px;
+  }
+  
+  .pagination-button,
+  .pagination-number {
+    padding: 5px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .pagination-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination-number.current {
+    background-color: #007bff;
+    color: #fff;
+  }

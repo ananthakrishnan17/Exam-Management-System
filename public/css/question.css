@@ -1,0 +1,618 @@
+
+.container {
+  margin-top: 5vh;
+}
+textarea {
+  width: 250px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  padding: 10px; /* Adjust padding as needed */
+}
+.user-settings {
+  position: fixed;
+  margin-top: 9%;
+  top: 5vh;
+  width: 200px;
+  height: 100%;
+  padding: 20px;
+  background-color: #b1d3f5;
+  color: #fff;
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+  transition: left 0.5s ease-in-out;
+  z-index: 1000;
+}
+
+.user-settings img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.user-settings a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+  color: #b1d3f5;
+}
+
+.search-box1{
+  margin-left: 900px;
+  margin-top: -40px;
+  width: 100px;
+  display: flex;
+}
+
+.user-options a {
+  text-align: left;
+}
+
+.user-settings .user-info {
+  text-align: center;
+}
+
+.user-settings a i {
+  margin-right: 10px;
+}
+
+.user-settings a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+
+.id {
+  color: red;
+  margin-left: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#icon_edit {
+  color: orange;
+  font-size: 30px;
+}
+
+#delete {
+  color: red;
+  font-size: 30px;
+}
+
+
+
+#main {
+  margin-top: 1vh;
+  width: 97.5%;
+  margin-left: 1%;
+
+}
+
+#main1{
+  margin-top: 1vh;
+  width: 100%;
+  margin-left: 0%;
+
+
+}
+
+/* css for pattern list table */
+
+#exampleModal{
+  margin-left: -125px;
+}
+
+#table_list1{
+  border:none;
+  width: 97%;
+  margin-left: 1.5%;
+  
+}
+#table_list1 tr th{
+  background-color:#3498db;
+  color: white;
+
+}
+#table_list1 tr:nth-child(even) {
+  background-color: #dae9f8;
+}
+#table_list1 tr:nth-child(odd) {
+  background-color: white;
+}
+
+
+#navbar-toggle {
+  font-size: 30px;
+}
+
+#question-pattern {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#question {
+  margin-left: 1.5%;
+  margin-top: 0px;
+}
+
+#table_list1 td, th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* create pattern css */
+
+#livewirepattern{
+  background-color: #5cb85c;
+  margin-left: 7%;
+  border: none;
+  text-shadow: none;
+
+  cursor: pointer;
+
+}
+
+#qid {
+  width: 50px;
+}
+
+#action {
+  padding-right: 14%;
+  width: 10.7%;
+
+}
+
+#editable {
+  border-collapse: collapse;
+  width: 98%;
+  margin-top: -2%;
+  margin-left:1%;
+}
+
+#editable th, #editable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#editable th {
+  background-color: #3498db;
+}
+
+#editable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#editable tr:hover {
+  background-color: #ddd;
+}
+
+.editable {
+  cursor: pointer;
+}
+
+.editable:focus {
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+#qpp {
+  text-align: center;
+}
+
+#head {
+  background-color: #3498db;
+}
+
+
+.cell {
+  border: 1px solid #ccc;
+  padding: 0px;
+}
+
+
+#newt {
+  width: 94.3%;
+  margin-left: 1%;
+  margin-top: 4%;
+  border: 1px solid #ccc;
+}
+#newt tr td{
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  height: auto;
+}
+
+.cell {
+  padding: 0px;
+}
+
+#q_no {
+padding: 1%;
+padding-top: 0.5%;
+width: 7%;
+height:120px;
+}
+
+#autoIncrementInput {
+  width: 10%;
+  padding: 3vh;
+}
+
+#saveButton {
+  margin-left: 27%;
+}
+
+#add2{
+  margin-left: 4%;
+  width: 150px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.pagination-label {
+  margin: 0 10px;
+}
+
+.pagination-button, .pagination-number {
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pagination-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-number.current {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#answer_choice {
+  width: 6%;
+  margin-left: 2%;
+}
+
+#back{
+  margin-top: 0%;
+  background-color: grey;
+  color: white;
+  border: none;
+}
+
+#add {
+  margin-left: 88%;
+  margin-top: 1%;
+  width: 150px;
+  border: none;
+}
+
+
+#qn{
+  width:7%;
+}
+#question_head{
+  width: 700px;
+}
+#td{
+  width: 104%;
+  margin-left:0;
+  margin-top: -40px;
+}
+#answer{
+  width: 50px;
+  margin-left: 10px;
+}
+
+#ans{
+  width: 5.9%;
+}
+#cell{
+  padding: 3px;
+}
+#heading{
+  text-align: left;
+ height: 30px;
+}
+
+
+.color1 td {
+  background-color:white;
+}
+
+.color2 td {
+  background-color: #dae9f8;
+}
+#plus{
+  width: 45px;
+  margin-left: 20px;
+  background-color: transparent;
+  color: green;
+  border: none;
+}
+#plus i{
+  font-size: 25px;
+}
+#drop i{
+  font-size: 25px;
+}
+#drop{
+  width: 45px;
+  margin-right: 5px;
+  background-color: transparent;
+  color: red;
+  border: none;
+}
+.save-btn{
+  background-color: transparent;
+  border: none;
+  width: 40px;
+}
+.delete-btn{
+  background-color: transparent;
+  width: 40px;
+  border: none;
+}
+#ans_input{
+  width: 24.2%;
+  background-color: transparent;
+  border: none;
+}
+
+#text_input{
+  width: 100%;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid rgb(204, 204, 204);
+  resize: none;
+  overflow: hidden;
+}
+
+.move-options{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* patternlist */
+
+#qp {
+  text-align: center;
+  padding: 10px;
+}
+
+#table_list1 td:hover {
+  font-weight: bold;
+}
+#pattern {
+  margin-left: 89%;
+  width: 140px;
+}
+
+.pattern-search-box {
+  display: flex;
+  float: right;
+  margin-top: -33px;
+  margin-right: 10.7%;
+  margin-bottom: 15px;
+}
+
+.box1{
+margin-left: 70%;
+margin-top: -1.9%;
+height: 30px;
+display: flex;
+cursor: pointer;
+padding: 10px 20px;
+background: #ffffff;
+border-radius: 30px;
+align-items:center;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.box1 input {
+  width: 200px;
+  outline: none;
+  border: none;
+  
+  transition: 0.7s;
+  background: transparent;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-label {
+  margin: 0 10px;
+}
+
+.pagination-button,
+.pagination-number {
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pagination-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-number.current {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#cell {
+  padding: 0;
+  line-height: 30px;
+
+}
+
+.unassigned {
+  text-decoration: underline;
+}
+#question_pattern{
+  text-decoration: underline;
+}
+
+.assigned {
+  color: black;
+  text-decoration: none;
+}
+#question_td{
+  width: 76.5%;
+}
+.assigned:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* patternregister */
+
+#login{
+  margin-left: 230px;
+}
+#livecancel{
+  margin-left: 400px;
+  margin-top: -63px;
+}
+#Question_Pattern{
+  width:350px;
+  margin-right: 20px;
+}
+#login{
+  margin-left: 250px;
+}
+#pattern_header{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0px;
+  background-color:#3498db;
+  height: 40px;
+  color: white;
+  padding: 5px;
+  font-size: 30px;
+}
+#Question_Pattern{
+  width:350px;
+  margin-left: 240px;
+}
+
+#error-message{
+  margin-left: 250px;
+  color: red;
+}
+#error{
+  margin-left: 7%;
+}
+/* date picker */
+#qno{
+  margin-top: 18px;
+}
+#datepicker{
+  margin-left: 570px;
+  margin-top: -1000px;
+  display: inline-block;
+  position: relative;
+  transform: translateY(-130%);
+  }
+  #ans{
+    margin-top: 18px;
+    margin-left: 25px;
+  }
+  #text{
+    margin-bottom: -30px;
+    margin-left: 100px;
+  }
+#pattern-register-header{
+  margin-left: 0px;
+  margin-top: 60px;
+  position: fixed;
+
+}
+.mypage{
+  background-color: whitesmoke;
+  width:700px ;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: fixed;
+
+}
+#loginpage{
+  background-color: #3498db;
+  color:white;
+  width:700px ;
+  margin-left:0;
+  padding: 10px;
+}
+.star{
+  color:red;
+}
+
+#pattern-bg{
+  background-color:  #dae9f8;
+}
+
+#user_id{
+  margin-left: 140px;
+}
+#user_id1{
+  margin-left: 40px;
+}
+.edit-btn{
+  background-color: transparent;
+  border: none;
+  width:40px;
+}
+td[data-field-name="option1"],
+td[data-field-name="option2"],
+td[data-field-name="option3"],
+td[data-field-name="option4"] {
+    /* Your CSS styles here */
+    width: 200px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 250px;
+}
+
+td[data-field-name="question"] {
+ word-wrap: break-word; max-width: 250px;
+}
+
+/* for search input icon */
+#search{
+  height: 20px;
+  width: 20px;
+  background: none;
+}
+#search4{
+  height: 20px;
+  width: 2%px;
+  background: none;
+}
